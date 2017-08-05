@@ -35,6 +35,7 @@ body {
 .card {
   margin: 0;
   height: 200px;
+  border-radius:10px;
 }
 
 .card-title {
