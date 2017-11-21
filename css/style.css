@@ -1,14 +1,18 @@
+/*font-family: 'Vollkorn SC', serif;
+font-family: 'Source Sans Pro', sans-serif;*/
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro|Vollkorn+SC');
+
 body {
   margin-top: 60px;
-  background-color:#E5E9ED;
+  background-color:#F2F2F4;
   font-size: 14px;
 }
 
 .title {
- color: #506A85;
+ color: #907F9F;
  font-weight: 300;
  font-size: 3rem;
- font-family: Helvetica;
+ font-family: 'Source Sans Pro', sans-serif;
  margin-bottom: 20px;
  line-height: 90%;
 }
@@ -16,6 +20,7 @@ body {
   color: #737373;
   text-transform: uppercase;
   font-size: 1em;
+
 }
 .heading {
   margin-bottom: 40px;
@@ -36,9 +41,11 @@ body {
   margin: 0;
   height: 200px;
   border-radius:10px;
+
 }
 
 .card-title {
+
   position: relative;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -51,8 +58,8 @@ body {
 }
 
 h4 {
-  color: #506A85;
-  font-family: Helvetivca;
+  color: #907F9F;
+  font-family:'Vollkorn SC', serif;
   font-weight: 300px;
 }
 
@@ -65,7 +72,7 @@ p {
 	background-color:#fff;
 }
 .back {
-  background-color: #506A85;
+  background-color: #907F9F;
   /*padding: 10px;*/
 }
 
