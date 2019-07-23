@@ -1,0 +1,82 @@
+/*font-family: 'Vollkorn SC', serif;
+font-family: 'Source Sans Pro', sans-serif;*/
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro|Vollkorn+SC');
+
+body {
+  margin-top: 60px;
+  background-color:#F2F2F4;
+  font-size: 14px;
+}
+
+.title {
+ color: #907F9F;
+ font-weight: 300;
+ font-size: 3rem;
+ font-family: 'Source Sans Pro', sans-serif;
+ margin-bottom: 20px;
+ line-height: 90%;
+}
+.subtitle {
+  color: #737373;
+  text-transform: uppercase;
+  font-size: 1em;
+
+}
+.heading {
+  margin-bottom: 40px;
+}
+.card-container {
+  width: 100%;
+	background-color:transparent;
+	/*idk why but this helps in not squishing the card boxes to diff wdiths*/
+}
+.card-container {
+	-webkit-perspective: 800px;
+  -moz-perspective: 800px;
+  -o-perspective: 800px;
+        perspective: 800px;
+        margin-bottom: 30px;
+}
+.card {
+  margin: 0;
+  height: 200px;
+  border-radius:10px;
+
+}
+
+.card-title {
+
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  }
+
+.back > p {
+	padding: 20px 5px;
+}
+
+h4 {
+  color: #907F9F;
+  font-family:'Vollkorn SC', serif;
+  font-weight: 300px;
+}
+
+p {
+  color: #fff;
+}
+
+.front {
+  padding: 10px;
+	background-color:#fff;
+}
+.back {
+  background-color: #907F9F;
+  /*padding: 10px;*/
+}
+
+.small-caps {
+  text-transform: uppercase;
+  font-size: 1em;
+}
