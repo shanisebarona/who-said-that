@@ -31,9 +31,9 @@ body {
 	/*idk why but this helps in not squishing the card boxes to diff wdiths*/
 }
 .card-container {
-	  -webkit-perspective: 800px;
-   -moz-perspective: 800px;
-     -o-perspective: 800px;
+	-webkit-perspective: 800px;
+  -moz-perspective: 800px;
+  -o-perspective: 800px;
         perspective: 800px;
         margin-bottom: 30px;
 }
